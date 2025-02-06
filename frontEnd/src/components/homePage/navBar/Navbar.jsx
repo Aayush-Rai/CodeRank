@@ -1,9 +1,20 @@
-
-
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <>
+      <div>
+        CODERANK
+        <div>
+          <a href=""> Home</a>
+          <a href=""> Features</a>
+          <a href=""> Milestones</a>
+        </div>
+        <div>
+          <button>Log In</button>
+          <button>Sign up</button>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Navbar
+export default Navbar;
