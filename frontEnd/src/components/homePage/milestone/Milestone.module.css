@@ -1,0 +1,43 @@
+.milestoneDiv {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3.75rem 0rem;
+
+  h1 {
+    margin: auto;
+    font-size: 3.75rem;
+  }
+  .milestone_detail_container {
+    display: flex;
+    justify-content: center;
+    gap:1.5rem;
+  }
+  .milestone_eachContainer {
+    background-color: #ffffff;
+    border: 2px solid #d0d5dd;
+    border-radius: 1.25rem;
+    padding: 2rem 1.25rem;
+    width: 22rem;
+    /* height: 20.25rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .milestone_textContainer {
+      padding-top: 0.75rem;
+      h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+      }
+      p {
+        text-align: center;
+        color: #6455d6;
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
